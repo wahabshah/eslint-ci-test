@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+
+lint_server:
+ script: 
+  - npm install
+  - npm run lint
